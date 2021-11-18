@@ -1,0 +1,48 @@
+{
+  "alerts": [
+    {
+      "type": "primary",
+      "icon": "file-alt",
+      "time": "December 12, 2019",
+      "message": "A new monthly report is ready to download!"
+    },
+    {
+      "type": "success",
+      "icon": "donate",
+      "time": "December 7, 2019",
+      "message": "$290.29 has been deposited into your account!"
+    },
+    {
+      "type": "warning",
+      "icon": "exclamation-triangle",
+      "time": "December 2, 2019",
+      "message": "Spending Alert: We've noticed unusually high spending for your account."
+    }
+  ],
+  "message": [
+    {
+      "status": "success",
+      "avatar": "assets/img/undraw_profile_1.svg",
+      "message": "Hi there! I am wondering if you can help me with a problem I've been having.",
+      "info": "Emily Fowler · 58m"
+    },
+    {
+      "status": "",
+      "avatar": "assets/img/undraw_profile_2.svg",
+      "message": "I have the photos that you ordered last month, how would you like them sent to you?",
+      "info": "Jae Chun · 1d"
+    },
+    {
+      "status": "warning",
+      "avatar": "assets/img/undraw_profile_3.svg",
+      "message": "Last month's report looks great, I am very happy with the progress so far, keep up the good work!",
+      "info": "Morgan Alvarez · 2d"
+    },
+    {
+      "status": "success",
+      "avatar": "assets/img/undraw_profile_3.svg",
+      "message": "Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...",
+      "info": "Chicken the Dog · 2w"
+    }
+  ]
+}

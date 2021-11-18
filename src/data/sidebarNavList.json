@@ -1,0 +1,118 @@
+[
+  {
+    "sidebarHeading": "",
+    "divider": "true",
+    "navList": [
+      {
+        "navItem": "Dashboard",
+        "path": "/",
+        "icon": "tachometer-alt",
+        "active": ["/", "/dashboard"]
+      }
+    ]
+  },
+  {
+    "sidebarHeading": "Interface",
+    "divider": "true",
+    "navList": [
+      {
+        "navItem": "Components",
+        "path": "#",
+        "icon": "cog",
+        "active": ["/buttons", "/cards"],
+        "collapseList": [
+          {
+            "collapseHeader": "Custom Components"
+          },
+          {
+            "collapseItem": "Buttons",
+            "path": "/buttons"
+          },
+          {
+            "collapseItem": "Cards",
+            "path": "/cards"
+          }
+        ]
+      },
+      {
+        "navItem": "Utilities",
+        "path": "#",
+        "icon": "wrench",
+        "active": ["/colors", "/borders", "/animations", "/others"],
+        "collapseList": [
+          {
+            "collapseHeader": "Custom Utilities"
+          },
+          {
+            "collapseItem": "Colors",
+            "path": "/colors"
+          },
+          {
+            "collapseItem": "Borders",
+            "path": "/borders"
+          },
+          {
+            "collapseItem": "Animations",
+            "path": "/animations"
+          },
+          {
+            "collapseItem": "Others",
+            "path": "/others"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sidebarHeading": "Addons",
+    "divider": "true",
+    "navList": [
+      {
+        "navItem": "Pages",
+        "path": "#",
+        "icon": "folder",
+        "active": ["/not-found", "/blank-page"],
+        "collapseList": [
+          {
+            "collapseHeader": "Login screens"
+          },
+          {
+            "collapseItem": "Login",
+            "path": "/login"
+          },
+          {
+            "collapseItem": "Register",
+            "path": "/register"
+          },
+          {
+            "collapseItem": "Forgot Password",
+            "path": "/forgot-password"
+          },
+          {
+            "collapseHeader": "Other Pages"
+          },
+          {
+            "collapseItem": "404 Page",
+            "path": "/not-found"
+          },
+          {
+            "collapseItem": "Blank Page",
+            "path": "/blank-page"
+          }
+        ]
+      },
+      {
+        "navItem": "Charts",
+        "path": "/charts",
+        "icon": "chart-area",
+        "active": ["/charts"]
+      },
+      {
+        "navItem": "Tables",
+        "path": "/tables",
+        "icon": "table",
+        "active": ["/tables"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+#page-top
+    wrapper
+        state - toggler
+        sidebar
+            props - toggler
+            sidebar brand
+            nav item list
+            divider
+            heading
+            nav item collapse
+                collapse-items
+            sidebar message
+            sidebar toggle btn
+        content wrapper
+            content
+                topbar
+                    props - toggler , onToggle
+                    sidebar toggle btn
+                    topbar search
+                        form
+                            input
+                            button
+                    list
+                        search dropdown
+                            dropdown
+                              topbar search
+                                    form
+                                        input
+                                        button
+                        alerts
+                            dropdown toggle button
+                                dropdown list
+                                    hearder
+                                    dropdown item
+                                        icon
+                                        message
+                        mesasage
+                            dropdown toggle button
+                                dropdown list
+                                    hearder
+                                    dropdown item
+                                        icon
+                                        message
+                        topbar divider
+                        user profile
+                            dropdown toggle button
+                                dropdown list
+                                    hearder
+                                    dropdown item
+                                        icon
+                                        link
+                                        name
+                main
+        footer
+    scroll to top btn
+    logout modal
+
+index.html
+main
+    page heading
+    content row
+        card example
+    content row
+        area chart
+            header
+                dropdown
+            body
+                canvas
+        pie chart
+            header
+                dropdown
+            body
+                canvas

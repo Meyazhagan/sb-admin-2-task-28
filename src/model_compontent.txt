@@ -1,0 +1,14 @@
+wrapper
+    sidebar
+        sidebar brand
+    topbar
+    main
+    logout modal
+
+common
+    button
+    nav list
+    nav item
+        collapse items
+    divider
+    heading
