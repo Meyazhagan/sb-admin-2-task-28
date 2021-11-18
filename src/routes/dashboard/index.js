@@ -1,9 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import $ from "jquery";
 import Link from "../../components/common/link";
 import Sidebar from "../../components/nav/Sidebar";
 import Topbar from "../../components/nav/Topbar";
 
 function Dashboard({ children }) {
+  useEffect(() => {
+    // Scroll to top button appear
+    $(document).on("scroll", function () {
+      var scrollDistance = $(this).scrollTop();
+      if (scrollDistance > 100) {
+        $(".scroll-to-top").fadeIn();
+      } else {
+        $(".scroll-to-top").fadeOut();
+      }
+    });
+  }, []);
   const [sidebarCollapse, setSidebarCollapse] = useState(false);
   return (
     <div id="page-top">
